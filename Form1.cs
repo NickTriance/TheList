@@ -8,7 +8,7 @@ namespace TheListQuote
     public partial class QuoteGetter : Form
     {
         //url for downloading the list
-        private readonly string LIST_URL = "https://docs.google.com/document/d/14Jy3JvdCvajXGiOo7O-oxCec9W4fwZyHBCpiNbJSy3Y/export?format=txt";
+        private readonly string LIST_URL = "LINK_TO_GOOGLE_DOC /export?format=txt";
         private readonly string fileName = String.Format(@"{0}\list.txt", Application.StartupPath); //where the list will be saved
         
         public QuoteGetter()
